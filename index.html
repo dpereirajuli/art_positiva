@@ -1,0 +1,522 @@
+<!doctype html><html lang="pt-BR">
+  <head>
+    <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#ffffff"><meta name="description" content="Fachadas em ACM, letras caixa e luminosos. Explore projetos e imagine uma nova presença para sua marca com a Artpositiva."><title>
+      Artpositiva — Sua marca merece ser vista.</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="assets/style.css?v=20261010-comparador"><script src="assets/app.js?v=20261010-comparador" defer>
+    </script>
+  </head>
+  <body>
+    <a class="skip" href="#conteudo">
+      Pular para o conteúdo</a>
+    <header class="header" id="topo">
+      <a class="brand" href="#" aria-label="Artpositiva, início">
+        artpositiva<span>
+          ®</span>
+        <small>
+          COMUNICAÇÃO VISUAL</small>
+      </a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
+        <svg viewbox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <path d="M3 6h18M3 12h18M3 18h18" /></svg>
+      </button>
+      <nav id="menu" aria-label="Principal">
+        <a href="#solucoes">
+          Soluções</a>
+        <a href="#projetos">
+          Projetos</a>
+        <a href="#sobre">
+          Sobre</a>
+        <a class="button small" href="#contato">
+          Vamos conversar<span>
+            ↗</span>
+        </a>
+      </nav>
+    </header>
+    <main id="conteudo">
+      <section id="estudio" class="section studio-section studio-hero">
+        <div class="container">
+          <div class="studio-hero-grid">
+            <div class="hero-intro">
+              <span class="eyebrow"><span class="dot"></span> ESTÚDIO INTERATIVO DE FACHADAS</span>
+              <h1>Sua marca merece<br>ser <em>vista.</em></h1>
+              <p>Fachadas que dão presença ao seu negócio. Experimente sua marca no estúdio interativo e descubra uma nova forma de chamar atenção.</p>
+            </div>
+            <div class="studio">
+            <div class="studio-view" id="studio-view">
+              <span class="studio-label">
+                ESTÚDIO INTERATIVO / SUA IDEIA, EM CENA</span>
+              <svg class="facade-svg" viewbox="0 0 900 580" role="img" aria-label="Fachada conceitual personalizável">
+                <defs>
+                  <lineargradient id="sky" x2="0" y2="1">
+                    <stop stop-color="#dce6f3" /><stop offset="1" stop-color="#f6f8fc" /></lineargradient>
+                  <lineargradient id="glass" x2="1" y2="1">
+                    <stop stop-color="#7d94a8" /><stop offset="1" stop-color="#324a60" /></lineargradient>
+                  <filter id="sign-glow">
+                    <fegaussianblur stddeviation="4" /></filter>
+                  <pattern id="panel-lines" width="90" height="150" patternunits="userSpaceOnUse">
+                    <path d="M90 0V150" stroke="#ffffff" opacity=".12" /></pattern>
+                </defs>
+                <rect width="900" height="580" fill="url(#sky)" class="sky" /><circle class="sun" cx="750" cy="85" r="38" fill="#ffffff" opacity=".7" /><path d="M0 445L900 416V580H0Z" fill="#c7d2e0" /><path d="M98 441L756 452L836 487L179 495Z" fill="#000" opacity=".13" /><path d="M135 191L727 163L787 202V461L727 476L135 449Z" fill="#f3f5f8" /><path d="M727 163L787 202V461L727 476Z" fill="#b6c3d4" /><path d="M135 191L727 163V291L135 310Z" fill="#292e25" id="facade-panel" /><path d="M135 191L727 163V291L135 310Z" fill="url(#panel-lines)" /><path d="M156 318L707 300V437L156 420Z" fill="url(#glass)" /><path d="M338 313V428M520 306V433" stroke="#d9e2ec" stroke-width="9" /><path d="M171 333L290 329L186 410Z M550 317L645 314L562 423Z" fill="#ffffff" opacity=".14" /><path d="M431 317V432" stroke="#52687f" stroke-width="6" /><path d="M135 310L727 291" stroke="#c6dcff" stroke-width="4" class="light-strip" /><text x="433" y="256" text-anchor="middle" transform="rotate(-2 433 256)" font-family="Arial,sans-serif" font-weight="700" font-size="44" letter-spacing="5" fill="#e4efff" filter="url(#sign-glow)" id="brand-glow" opacity="0">
+                  SUA MARCA</text>
+                <text x="433" y="256" text-anchor="middle" transform="rotate(-2 433 256)" font-family="Arial,sans-serif" font-weight="700" font-size="44" letter-spacing="5" fill="#ffffff" id="brand-sign">
+                  SUA MARCA</text>
+                <path d="M104 451L728 476L792 460L801 477L727 496L103 468Z" fill="#94a5bb" /></svg>
+              <div class="scene-footer">
+                <span id="scene-status" aria-live="polite">
+                  ACM grafite · Visualização diurna</span>
+                <button id="night-toggle" aria-pressed="false">
+                  Ver à noite</button>
+              </div>
+            </div>
+            <div class="studio-controls">
+              <span class="eyebrow">
+                DÊ FORMA À SUA IDEIA</span>
+              <label for="brand-name">
+                Nome da sua marca</label>
+              <input id="brand-name" type="text" maxlength="22" placeholder="SUA MARCA" autocomplete="organization"><label>
+                Cor do revestimento</label>
+              <div class="swatches" role="group" aria-label="Cor do revestimento">
+                <button class="swatch active" style="--swatch:#292e25" data-color="#292e25" data-name="grafite" aria-label="Grafite" aria-pressed="true">
+                </button>
+                <button class="swatch" style="--swatch:#eee8dc" data-color="#eee8dc" data-name="areia" aria-label="Areia" aria-pressed="false">
+                </button>
+                <button class="swatch" style="--swatch:#6e3529" data-color="#6e3529" data-name="terracota" aria-label="Terracota" aria-pressed="false">
+                </button>
+                <button class="swatch" style="--swatch:#203b47" data-color="#203b47" data-name="azul" aria-label="Azul" aria-pressed="false">
+                </button>
+                <button class="swatch" style="--swatch:#355041" data-color="#355041" data-name="verde" aria-label="Verde" aria-pressed="false">
+                </button>
+              </div>
+              <label>
+                Estilo da letra</label>
+              <div class="chips" role="group" aria-label="Estilo da letra">
+                <button class="chip active" data-letter="bloco" data-letter-name="bloco" aria-pressed="true">
+                  Bloco</button>
+                <button class="chip" data-letter="serif" data-letter-name="serifada" aria-pressed="false">
+                  Serifada</button>
+                <button class="chip" data-letter="neon" data-letter-name="neon" aria-pressed="false">
+                  Neon</button>
+              </div>
+              <label>
+                Iluminação</label>
+              <div class="chips" role="group" aria-label="Iluminação">
+                <button class="chip active" data-light="none" data-light-name="sem luz" aria-pressed="true">
+                  Sem luz</button>
+                <button class="chip" data-light="outline" data-light-name="contorno" aria-pressed="false">
+                  Contorno</button>
+                <button class="chip" data-light="front" data-light-name="luminoso frontal" aria-pressed="false">
+                  Luminoso</button>
+              </div>
+              <p class="selected-color">
+                Revestimento:<strong id="selected-color">
+                  grafite</strong>
+              </p>
+              <a href="#contato" class="button accent-btn" id="use-concept">
+                Quero conversar sobre essa ideia<span>
+                  ↗</span>
+              </a>
+              <p class="studio-note">
+                Simulação ilustrativa. Cores e proporções reais dependem dos materiais e da avaliação técnica.</p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+      <div class="ticker" aria-hidden="true">
+        <div><div class="ticker-group"><span>Fachadas em ACM para o seu negócio</span><span>Letras caixa com a identidade da sua marca</span><span>Luminosos para destacar sua fachada</span></div><div class="ticker-group"><span>Fachadas em ACM para o seu negócio</span><span>Letras caixa com a identidade da sua marca</span><span>Luminosos para destacar sua fachada</span></div></div>
+      </div>
+      <section id="solucoes" class="section light">
+        <div class="container">
+          <div class="section-top reveal">
+            <div>
+              <span class="eyebrow">
+                SOLUÇÕES</span>
+              <h2>
+                Não é só uma fachada.<br>É a sua<em>
+                  primeira impressão.</em>
+              </h2>
+            </div>
+            <p>
+              Materiais, formas e iluminação trabalhando juntos para traduzir a identidade do seu negócio.</p>
+          </div>
+          <div class="services">
+            <a class="service reveal" href="#contato" data-service="Fachada em ACM">
+              <span class="service-no">
+                01</span>
+              <div class="material acm">
+                <span>
+                </span>
+                <span>
+                </span>
+                <span>
+                </span>
+              </div>
+              <h3>
+                Fachadas em ACM<span>
+                  ↗</span>
+              </h3>
+              <p>
+                Linhas limpas e acabamento que valorizam a arquitetura do seu espaço.</p>
+              <span class="service-tag">
+                REVESTIMENTO · IDENTIDADE · ACABAMENTO</span>
+            </a>
+            <a class="service reveal" href="#contato" data-service="Letras caixa">
+              <span class="service-no">
+                02</span>
+              <div class="material letters">
+                Aa<span>
+                  Aa</span>
+              </div>
+              <h3>
+                Letras caixa<span>
+                  ↗</span>
+              </h3>
+              <p>
+                Sua identidade ganha volume. Explore diferentes materiais e acabamentos.</p>
+              <span class="service-tag">
+                VOLUME · PERSONALIDADE · DESTAQUE</span>
+            </a>
+            <a class="service reveal" href="#contato" data-service="Luminoso">
+              <span class="service-no">
+                03</span>
+              <div class="material lightbox">
+                OPEN</div>
+              <h3>
+                Luminosos<span>
+                  ↗</span>
+              </h3>
+              <p>
+                Uma marca que continua chamando atenção quando a cidade muda de luz.</p>
+              <span class="service-tag">
+                LUZ · CONTRASTE · VISIBILIDADE</span>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section id="projetos" class="section light projects-section">
+        <div class="container">
+          <div class="section-top reveal">
+            <div>
+              <span class="eyebrow">
+                PORTFÓLIO</span>
+              <h2>
+                Da ideia<br>para a<em>
+                  rua.</em>
+              </h2>
+            </div>
+</div>
+          <div class="project-carousel">
+          <div class="project-track" id="project-track" tabindex="0" role="group" aria-label="Carrossel de projetos">
+            <button class="project" data-category="comercio" data-img="assets/images/projeto-5.webp" data-title="Presença no comércio">
+              <div class="project-photo">
+                <img src="assets/images/projeto-5.webp" alt="Fachada azul e branca da loja Casa Montana" width="1032" height="581" loading="lazy"><span>
+                  ↗</span>
+              </div>
+              <div class="project-meta">
+                <h3>
+                  Presença no comércio</h3>
+                <span>
+                  FACHADA COMERCIAL</span>
+              </div>
+            </button>
+            <button class="project" data-category="saude" data-img="assets/images/projeto-6.webp" data-title="Identidade para espaços de saúde">
+              <div class="project-photo">
+                <img src="assets/images/projeto-6.webp" alt="Fachada da clínica IMAD em azul e branco" width="1280" height="720" loading="lazy"><span>
+                  ↗</span>
+              </div>
+              <div class="project-meta">
+                <h3>
+                  Identidade para espaços de saúde</h3>
+                <span>
+                  COMUNICAÇÃO VISUAL</span>
+              </div>
+            </button>
+            <button class="project" data-category="alimentacao" data-img="assets/images/projeto-7.webp" data-title="Uma entrada com personalidade">
+              <div class="project-photo">
+                <img src="assets/images/projeto-7.webp" alt="Fachada amarela e vermelha do estabelecimento Cheirinho do Nordeste" width="1040" height="780" loading="lazy"><span>
+                  ↗</span>
+              </div>
+              <div class="project-meta">
+                <h3>
+                  Uma entrada com personalidade</h3>
+                <span>
+                  FACHADA COMERCIAL</span>
+              </div>
+            </button>
+            <button class="project" data-category="alimentacao" data-img="assets/images/projeto-1.webp" data-title="Destaque também à noite">
+              <div class="project-photo">
+                <img src="assets/images/projeto-1.webp" alt="Fachada iluminada à noite em tons vermelhos" width="1280" height="960" loading="lazy"><span>
+                  ↗</span>
+              </div>
+              <div class="project-meta">
+                <h3>
+                  Destaque também à noite</h3>
+                <span>
+                  FACHADA E ILUMINAÇÃO</span>
+              </div>
+            </button>
+          </div>
+          <div class="carousel-nav">
+            <p class="carousel-hint">Arraste ou use as setas →</p>
+            <div class="carousel-arrows">
+              <button class="carousel-btn" id="prev-project" type="button" aria-label="Projeto anterior" aria-controls="project-track"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg></button>
+              <button class="carousel-btn" id="next-project" type="button" aria-label="Próximo projeto" aria-controls="project-track"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg></button>
+            </div>
+          </div>
+          </div>
+          <p class="portfolio-status sr-only" aria-live="polite">
+            4 projetos exibidos.</p>
+        </div>
+      </section>
+      <section class="section transformation">
+        <div class="container transformation-grid">
+          <div class="reveal">
+            <span class="eyebrow accent">
+              UM NOVO OLHAR</span>
+            <h2>
+              Mesmo endereço.<br><em>
+                Outra presença.</em>
+            </h2>
+            <p>
+              Arraste para explorar como revestimento, proporção e iluminação podem transformar um espaço.</p>
+            <span class="disclaimer">
+              Demonstração ilustrativa de design.<br>Não representa um antes e depois de obra real.</span>
+          </div>
+          <div class="reveal">
+            <div class="comparison" style="--split:50%">
+              <input class="sr-only" type="range" id="comparison-range" min="0" max="100" value="50" aria-label="Comparar antes e conceito: use as setas ou arraste sobre a imagem">
+              <img src="assets/images/fachada-depois.svg" alt="Conceito de fachada modernizada, com revestimento escuro e letras iluminadas"><div class="comparison-before">
+                <img src="assets/images/fachada-antes.svg" alt="Ilustração de fachada simples antes da proposta de renovação"></div>
+              <span class="before-label">
+                ANTES</span>
+              <span class="after-label">
+                CONCEITO</span>
+              <div class="compare-line">
+                <span>
+                  ↔</span>
+              </div>
+            </div>
+            <label class="range-label" for="comparison-range">
+              Arraste sobre a imagem<span>
+                ← ARRASTE →</span>
+            </label>
+            </div>
+        </div>
+      </section>
+      <section id="sobre" class="section light">
+        <div class="container about-grid">
+          <div class="about-photo reveal">
+            <img src="assets/images/projeto-2.webp" alt="Espaço da empresa Artmais Fachadas, apresentado no site atual" width="704" height="485" loading="lazy"><span>
+              O DESIGN ENCONTRA A PRODUÇÃO.</span>
+          </div>
+          <div class="reveal">
+            <span class="eyebrow">
+              POR TRÁS DA FACHADA</span>
+            <h2>
+              Sua ideia.<br>Nosso<em>
+                próximo projeto.</em>
+            </h2>
+            <p>
+              Um projeto de comunicação visual começa entendendo o seu negócio: o que ele comunica, onde está e como quer ser percebido.</p>
+            <p>
+              Fachadas em ACM, letras caixa e luminosos dão forma a essa identidade. Vamos encontrar uma direção para o seu espaço?</p>
+            <a href="#contato" class="text-link dark-link">
+              Falar sobre meu projeto ↗</a>
+          </div>
+        </div>
+      </section>
+      <section class="section light process-section">
+        <div class="container">
+          <span class="eyebrow reveal">
+            COMO COMEÇAR</span>
+          <h2 class="reveal">
+            Da primeira conversa<br>ao<em>
+              próximo passo.</em>
+          </h2>
+          <div class="process-grid">
+            <article class="reveal">
+              <span>
+                01</span>
+              <h3>
+                Conte sua ideia</h3>
+              <p>
+                Compartilhe o tipo de negócio, a cidade e o que você quer transformar.</p>
+            </article>
+            <article class="reveal">
+              <span>
+                02</span>
+              <h3>
+                Mostre o espaço</h3>
+              <p>
+                Uma foto e medidas aproximadas ajudam a entender o cenário.</p>
+            </article>
+            <article class="reveal">
+              <span>
+                03</span>
+              <h3>
+                Converse com a equipe</h3>
+              <p>
+                Alinhe materiais, possibilidades, orçamento e as próximas etapas.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="section faq-section">
+        <div class="container faq-grid">
+          <div class="reveal">
+            <span class="eyebrow accent">
+              DÚVIDAS FREQUENTES</span>
+            <h2>
+              Vamos deixar<br>tudo<em>
+                mais claro.</em>
+            </h2>
+          </div>
+          <div class="reveal">
+            <details>
+              <summary>
+                O que enviar para solicitar um orçamento?</summary>
+              <p>
+                Informe o serviço desejado, a cidade e o tipo de negócio. Fotos do local e medidas aproximadas ajudam a equipe a avaliar o projeto.</p>
+            </details>
+            <details>
+              <summary>
+                Posso escolher a cor e a iluminação?</summary>
+              <p>
+                Você pode compartilhar referências e explorar opções no estúdio. A escolha final depende da disponibilidade de materiais e das características técnicas do projeto.</p>
+            </details>
+            <details>
+              <summary>
+                O simulador mostra o resultado exato?</summary>
+              <p>
+                O estúdio apresenta uma ilustração para explorar ideias. O resultado real depende de medidas, materiais, estrutura, iluminação e aprovação do projeto técnico.</p>
+            </details>
+            <details>
+              <summary>
+                Como recebo a proposta?</summary>
+              <p>
+                O formulário abaixo organiza seu pedido e abre o WhatsApp da empresa. Envie a mensagem e converse com a equipe sobre orçamento e prazo.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+      <section id="contato" class="section contact-section">
+        <div class="container contact-grid">
+          <div class="reveal">
+            <span class="eyebrow">
+              VAMOS CRIAR ALGO MARCANTE</span>
+            <h2>
+              Sua próxima<br><em>
+                boa impressão</em>
+              <br>começa aqui.</h2>
+            <p>
+              Conte o que você imagina. A gente começa a conversa a partir daí.</p>
+            <a class="contact-phone" href="https://wa.me/5511963354187" target="_blank" rel="noopener noreferrer">
+              (11) 96335-4187 ↗</a>
+            <p class="address">
+              Rua Eugênio Diamante, 305<br>Vila Barros · Guarulhos · SP</p>
+          </div>
+          <form id="quote-form" class="quote-form reveal">
+            <div class="form-row">
+              <div>
+                <label for="name">
+                  Seu nome *</label>
+                <input id="name" name="name" required maxlength="100" autocomplete="name" placeholder="Como podemos te chamar?"></div>
+              <div>
+                <label for="city">
+                  Cidade *</label>
+                <input id="city" name="city" required maxlength="100" autocomplete="address-level2" placeholder="Onde fica seu negócio?"></div>
+            </div>
+            <div class="form-row">
+              <div>
+                <label for="service">
+                  O que você precisa? *</label>
+                <select id="service" name="service" required>
+                  <option value="">
+                    Selecione</option>
+                  <option>
+                    Fachada em ACM</option>
+                  <option>
+                    Letras caixa</option>
+                  <option>
+                    Luminoso</option>
+                  <option>
+                    Projeto completo</option>
+                  <option>
+                    Ainda estou decidindo</option>
+                </select>
+              </div>
+              <div>
+                <label for="size">
+                  Medidas aproximadas</label>
+                <input id="size" name="size" placeholder="Ex.: 5 m de largura × 1,5 m" maxlength="100"></div>
+            </div>
+            <label for="message">
+              Conte um pouco da sua ideia</label>
+            <textarea id="message" name="message" rows="3" maxlength="1500" placeholder="Tipo de negócio, referências, dúvidas...">
+            </textarea>
+            <label class="upload" for="photo">
+              <span>
+                ↥ Foto da fachada<small>
+                  JPG, PNG ou WebP · até 10 MB</small>
+              </span>
+              <span>
+                Selecionar foto</span>
+            </label>
+            <input type="file" id="photo" accept="image/jpeg,image/png,image/webp" class="file-input"><div id="photo-preview" hidden>
+              <img alt="Prévia da foto selecionada"><button type="button" id="remove-photo">
+                Remover foto ×</button>
+            </div>
+            <p id="photo-status" class="form-note" aria-live="polite">
+              A foto fica no seu navegador. Você deverá anexá-la manualmente no WhatsApp.</p>
+            <button class="button submit" type="submit">
+              Preparar pedido no WhatsApp<span>
+                ↗</span>
+            </button>
+            <p class="form-note">
+              Ao continuar, o WhatsApp será aberto com seu pedido. Revise a mensagem antes de enviá-la. Não armazenamos os dados deste formulário.</p>
+            <p id="form-status" aria-live="polite">
+            </p>
+            <a id="whatsapp-fallback" hidden target="_blank" rel="noopener noreferrer">
+              Abrir meu pedido no WhatsApp ↗</a>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container footer-top">
+        <a class="brand" href="#topo">
+          artpositiva<span>
+            ®</span>
+          <small>
+            COMUNICAÇÃO VISUAL</small>
+        </a>
+        <span>
+          DESIGN. MATÉRIA. PRESENÇA.</span>
+        <a href="#topo">
+          Voltar ao topo ↑</a>
+      </div>
+      <div class="container footer-bottom">
+        <span>
+          ©<span id="year">
+          </span>
+          Artpositiva · Conceito de redesign.</span>
+        <span>
+          Feito para marcas que querem ser vistas.</span>
+      </div>
+    </footer>
+    <a class="whatsapp-float" href="https://wa.me/5511963354187" target="_blank" rel="noopener noreferrer" aria-label="Conversar no WhatsApp">
+      WhatsApp ↗</a>
+    <dialog id="project-dialog">
+      <button class="dialog-close" aria-label="Fechar projeto">
+        ×</button>
+      <img id="dialog-image" alt=""><h3 id="dialog-title">
+      </h3>
+      <p>
+        Imagem apresentada no site original da empresa.</p>
+      <a class="button" href="#contato" id="dialog-quote">
+        Quero um projeto para meu negócio<span>
+          ↗</span>
+      </a>
+    </dialog>
+  </body>
+</html>
